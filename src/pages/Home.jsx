@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
 
 const Home = () => {
     return (
-        <div>
-            <Navbar></Navbar>
+        <div className=" mt-10 rounded-lg container mx-auto">
+            <Hero></Hero>
         </div>
     );
 };
