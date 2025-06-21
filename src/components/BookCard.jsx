@@ -5,7 +5,7 @@ const BookCard = ({ book }) => {
   return (
     <Link
       to={`/book/${bookId}`}
-      className=" border border-gray-300 p-5 rounded-2xl shadow"
+      className=" border border-gray-300 p-5 rounded-2xl shadow my-3"
     >
       <img
         className="bg-[#F3F3F3] px-7 py-4   mx-auto rounded"

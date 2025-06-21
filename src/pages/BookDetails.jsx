@@ -45,7 +45,7 @@ const BookDetails = () => {
             </span>
           ))}
         </div>
-        <hr className="" className="text-gray-300" />
+        <hr className="text-gray-300" />
 
         <p className="mt-3">
           <span className="text-gray-500 mt-4">Number of Pages:</span>
