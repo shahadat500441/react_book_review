@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": "001",
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://example.com/images/silent_patient.jpg",
+    "review": "A chilling psychological thriller with a twist you won’t see coming.",
+    "totalPages": 336,
+    "rating": 4.2,
+    "category": "Psychological Thriller",
+    "tags": ["Mystery", "Mind-Bending"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
+  },
+  {
+    "bookId": "002",
+    "bookName": "Gone Girl",
+    "author": "Gillian Flynn",
+    "image": "https://example.com/images/gone_girl.jpg",
+    "review": "A dark and twisted journey into the complexities of marriage and deception.",
+    "totalPages": 432,
+    "rating": 4.1,
+    "category": "Domestic Thriller",
+    "tags": ["Marriage", "Manipulation"],
+    "publisher": "Crown Publishing Group",
+    "yearOfPublishing": 2012
+  },
+  {
+    "bookId": "003",
+    "bookName": "Behind Closed Doors",
+    "author": "B.A. Paris",
+    "image": "https://example.com/images/behind_closed_doors.jpg",
+    "review": "A gripping story about a seemingly perfect couple with dark secrets.",
+    "totalPages": 304,
+    "rating": 4.0,
+    "category": "Domestic Suspense",
+    "tags": ["Abuse", "Secrets"],
+    "publisher": "St. Martin's Press",
+    "yearOfPublishing": 2016
+  },
+  {
+    "bookId": "004",
+    "bookName": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "image": "https://example.com/images/girl_on_train.jpg",
+    "review": "A fast-paced psychological thriller with unreliable narrators and suspenseful twists.",
+    "totalPages": 395,
+    "rating": 4.0,
+    "category": "Psychological Mystery",
+    "tags": ["Addiction", "Unreliable Narrator"],
+    "publisher": "Riverhead Books",
+    "yearOfPublishing": 2015
+  },
+  {
+    "bookId": "005",
+    "bookName": "The Couple Next Door",
+    "author": "Shari Lapena",
+    "image": "https://example.com/images/couple_next_door.jpg",
+    "review": "A tense, tightly wound domestic thriller with secrets around every corner.",
+    "totalPages": 320,
+    "rating": 3.9,
+    "category": "Crime Thriller",
+    "tags": ["Kidnapping", "Deception"],
+    "publisher": "Pamela Dorman Books",
+    "yearOfPublishing": 2016
+  },
+  {
+    "bookId": "006",
+    "bookName": "Before I Go to Sleep",
+    "author": "S.J. Watson",
+    "image": "https://example.com/images/before_i_go_to_sleep.jpg",
+    "review": "A haunting and suspenseful story about memory loss and betrayal.",
+    "totalPages": 368,
+    "rating": 3.8,
+    "category": "Psychological Drama",
+    "tags": ["Amnesia", "Betrayal"],
+    "publisher": "HarperCollins",
+    "yearOfPublishing": 2011
+  }
+]
