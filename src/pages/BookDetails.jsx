@@ -1,4 +1,6 @@
-import { useLoaderData, useParams,Link } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
+import { saveBooks } from "../utilits.js/localStorage";
+
 
 const BookDetails = () => {
   const books = useLoaderData();
@@ -14,8 +16,13 @@ const BookDetails = () => {
     totalPages,
     yearOfPublishing,
     publisher,
-    rating
+    rating,
   } = book;
+
+  const handelReadBook = (book)=>{
+   saveBooks(book)
+  
+  }
   return (
     <div className=" flex gap-5 flex-col sm:flex-row rounded-lg p-6 items-center justify-center  ">
       <img
@@ -49,25 +56,31 @@ const BookDetails = () => {
 
         <p className="mt-3">
           <span className="text-gray-500 mt-4">Number of Pages:</span>
-          <span className="font-bold"> { totalPages}</span>
+          <span className="font-bold"> {totalPages}</span>
         </p>
         <p className="mt-1">
           <span className="text-gray-500 mt-4">Publisher:</span>
-          <span className="font-bold"> { publisher}</span>
+          <span className="font-bold"> {publisher}</span>
         </p>
         <p className="mt-1">
           <span className="text-gray-500 mt-4">Year of Publishing::</span>
-          <span className="font-bold"> { yearOfPublishing}</span>
+          <span className="font-bold"> {yearOfPublishing}</span>
         </p>
 
         <p className="mt-1">
           <span className="text-gray-500 mt-4">Rating:</span>
-          <span className="font-bold"> { rating}</span>
+          <span className="font-bold"> {rating}</span>
         </p>
 
-        <div className="mt-3" >
-            <Link><button className="bg-[#23BE0A] font-bold text-white px-4 py-2 rounded-lg  zhover:bg-white hover:text-black    mr-3 ">Read</button></Link>
-            <Link><button className="bg-[#50B1C9] font-bold text-white px-4 py-2 rounded-lg  border-2 hover:bg-white hover:text-black   mr-3 ">Wishlist</button></Link>
+        <div className="mt-3">
+          <button  
+          onClick={()=> handelReadBook(book)}
+          className="bg-[#23BE0A] font-bold text-white px-4 py-2 rounded-lg  zhover:bg-white hover:text-black    mr-3 ">
+            Read
+          </button>
+          <button className="bg-[#50B1C9] font-bold text-white px-4 py-2 rounded-lg  border-2 hover:bg-white hover:text-black   mr-3 ">
+            Wishlist
+          </button>
         </div>
       </div>
     </div>

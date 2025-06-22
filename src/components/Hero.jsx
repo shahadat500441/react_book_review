@@ -7,18 +7,13 @@ const Hero = () => {
         <img src={heroImg} className="max-w-sm rounded-lg opacity-100 " />
         <div>
           <h1 className="text-5xl font-bold">
-          Books to freshen
-          <br />
-            <span className>
-               up your bookshelf
-            </span>
+            Books to freshen
+            <br />
+            <span className>up your bookshelf</span>
           </h1>
 
-          <Link to="/listedBook">
-            <button
-              to="/listedBooks"
-              className=" font-bold rounded-lg px-4 py-3 bg-[#23BE0A] text-lg text-white mt-15"
-            >
+          <Link to="/listedBooks">
+            <button className=" font-bold rounded-lg px-4 py-3 bg-[#23BE0A] text-lg text-white mt-15">
               View The List
             </button>
           </Link>

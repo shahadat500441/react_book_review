@@ -18,7 +18,7 @@ const ListedBooks = () => {
           <span>Read Books</span>
         </Link>
         <Link 
-        to="wishList"
+        to={`wishList`}
         onClick={()=> setTabIndex(1)}
           className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? "border border-b-0" : "border-b"} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}
         >
