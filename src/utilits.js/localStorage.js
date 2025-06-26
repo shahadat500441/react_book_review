@@ -19,6 +19,7 @@ export const saveBooks = (book) =>{
 
     if(isExist){
         toast.error("Already Read Books")
+    return;
     }
     books.push(book)
 
